@@ -23,5 +23,9 @@
 hs_err_pid*
 replay_pid*
 
-# idear
+# idea
 .idea
+
+# ignore java envrionment
+pom.xml
+src
