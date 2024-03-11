@@ -1,6 +1,6 @@
 package org.henry;
 
-public class Main {
+public class FindNumbersWithEvenNumberOfDigits {
 
     public static void main(String[] args) {
         int[] nums = {555, 90, 482, 1771, 3990};
@@ -13,9 +13,9 @@ public class Main {
             int digits = 1;
             while (num > 9) {
                 num /= 10;
-                digits +=1;
+                digits += 1;
             }
-            if (digits % 2 == 0) count +=1;
+            if (digits % 2 == 0) count += 1;
         }
         return count;
     }
