@@ -1,3 +1,5 @@
+package org.henry;
+
 import java.util.Arrays;
 
 public class MergeSortedArray {
